@@ -1,0 +1,853 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../print.css" type="text/css" media="print">
+<meta content="GTweenTimeline,com.gskinner.motion.GTweenTimeline,suppressCallbacks,position,addCallback,addLabel,addTween,addTweens,calculateDuration,goto,gotoAndPlay,gotoAndStop,removeCallback,removeLabel,removeTween,resolveLabelOrPosition,setPropertyValue" name="keywords">
+<title>com.gskinner.motion.GTweenTimeline</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'GTweenTimeline - API Documentation';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../index-list.html')" href="../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../index.html?com/gskinner/motion/GTweenTimeline.html&amp;com/gskinner/motion/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;GTweenTimeline</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class GTweenTimeline"); titleBar_setSubNav(false,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">com.gskinner.motion</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class GTweenTimeline</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">GTweenTimeline <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../images/inherit-arrow.gif"> <a href="GTween.html">GTween</a> <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../images/inherit-arrow.gif"> flash.events.EventDispatcher</td>
+</tr>
+</table>
+<p></p>
+ <b>GTweenTimeline ©2008 Grant Skinner, gskinner.com. Visit www.gskinner.com/libraries/gtween/ for documentation, updates and more free code. Licensed under the MIT license - see the source file header for more information.</b>
+ <hr>
+ GTweenTimeline is a powerful sequencing engine for GTween. It allows you to build a virtual timeline
+ with tweens, actions (callbacks), and labels. It supports all of the features of GTween, so you can repeat,
+ reflect, and pause the timeline. You can even embed timelines within each other. GTweenTimeline adds about 1.2kb above GTween.
+ <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<div class="showHideLinks">
+<div class="hideInheritedProperty" id="hideInheritedProperty">
+<a onclick="javascript:setInheritedVisible(false,'Property');" href="#propertySummary" class="showHideLink"><img src="../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Public Properties</a>
+</div>
+<div class="showInheritedProperty" id="showInheritedProperty">
+<a onclick="javascript:setInheritedVisible(true,'Property');" href="#propertySummary" class="showHideLink"><img src="../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Public Properties</a>
+</div>
+</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#autoPlay">autoPlay</a> : Boolean = true<div class="summaryTableDescription">
+  Indicates whether the tween should automatically play when an end value is changed.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#calculatedPosition">calculatedPosition</a> : Number<div class="summaryTableDescription">
+  The current calculated position of the tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#calculatedPositionOld">calculatedPositionOld</a> : Number<div class="summaryTableDescription">
+  The previous calculated position of the tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#data">data</a> : *<div class="summaryTableDescription">
+  Allows you to associate arbitrary data with your tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#defaultDispatchEvents">defaultDispatchEvents</a> : Boolean = false<div class="summaryTableDescription">[static]
+  Sets the default value of dispatchEvents for new instances.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#defaultEase">defaultEase</a> : Function<div class="summaryTableDescription">[static]
+  Specifies the default easing function to use with new tweens.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#delay">delay</a> : Number<div class="summaryTableDescription">
+  The length of the delay in frames or seconds (depending on <code>.useFrames</code>).</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#dispatchEvents">dispatchEvents</a> : Boolean<div class="summaryTableDescription">
+  If true, it will dispatch init, change, and complete events in addition to calling the
+  onInit, onChange, and onComplete callbacks.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#duration">duration</a> : Number<div class="summaryTableDescription">
+  The length of the tween in frames or seconds (depending on the timingMode).</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#ease">ease</a> : Function<div class="summaryTableDescription">
+  The easing function to use for calculating the tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#nextTween">nextTween</a> : <a href="../motion/GTween.html">GTween</a>
+<div class="summaryTableDescription">
+  Specifies another GTween instance that will have <code>paused=false</code> set on it when this tween completes.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#onChange">onChange</a> : Function<div class="summaryTableDescription">
+  Callback for the change event.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#onComplete">onComplete</a> : Function<div class="summaryTableDescription">
+  Callback for the complete event.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#onInit">onInit</a> : Function<div class="summaryTableDescription">
+  Callback for the init event.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#pauseAll">pauseAll</a> : Boolean = false<div class="summaryTableDescription">[static]
+  Setting this to true pauses all tween instances.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#paused">paused</a> : Boolean<div class="summaryTableDescription">
+  Plays or pauses a tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#pluginData">pluginData</a> : Object<div class="summaryTableDescription">
+  Stores data for plugins specific to this instance.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#position">position</a> : Number<div class="summaryTableDescription">[write-only]</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#positionOld">positionOld</a> : Number<div class="summaryTableDescription">
+  The position of the tween at the previous change.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#proxy">proxy</a> : TargetProxy<div class="summaryTableDescription">
+  The proxy object allows you to work with the properties and methods of the target object directly through GTween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#ratio">ratio</a> : Number<div class="summaryTableDescription">
+  The eased ratio (generally between 0-1) of the tween at the current position.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#ratioOld">ratioOld</a> : Number<div class="summaryTableDescription">
+  The eased ratio (generally between 0-1) of the tween at the previous position.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#reflect">reflect</a> : Boolean<div class="summaryTableDescription">
+  Indicates whether the tween should use the reflect mode when repeating.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#repeatCount">repeatCount</a> : int = 1<div class="summaryTableDescription">
+  The number of times this tween will run.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#suppressCallbacks">suppressCallbacks</a> : Boolean<div class="summaryTableDescription">
+  If true, callbacks added with addCallback will not be called.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#suppressEvents">suppressEvents</a> : Boolean<div class="summaryTableDescription">
+  If true, events/callbacks will not be called.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#target">target</a> : Object<div class="summaryTableDescription">
+  The target object to tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#timeScale">timeScale</a> : Number = 1<div class="summaryTableDescription">
+  Allows you to scale the passage of time for a tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#timeScaleAll">timeScaleAll</a> : Number = 1<div class="summaryTableDescription">[static]
+  Sets the time scale for all tweens.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#useFrames">useFrames</a> : Boolean<div class="summaryTableDescription">
+  If true, durations and positions can be set in frames.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="GTween.html#version">version</a> : Number = 2.01<div class="summaryTableDescription">[static]
+  Indicates the version number for this build.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<div class="showHideLinks">
+<div class="hideInheritedMethod" id="hideInheritedMethod">
+<a onclick="javascript:setInheritedVisible(false,'Method');" href="#methodSummary" class="showHideLink"><img src="../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Public Methods</a>
+</div>
+<div class="showInheritedMethod" id="showInheritedMethod">
+<a onclick="javascript:setInheritedVisible(true,'Method');" href="#methodSummary" class="showHideLink"><img src="../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Public Methods</a>
+</div>
+</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#GTweenTimeline()">GTweenTimeline</a>(target:Object = null, duration:Number = 1, values:Object = null, props:Object = null, pluginData:Object = null, tweens:Array = null)</div>
+<div class="summaryTableDescription">
+  Constructs a new GTweenTimeline instance.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#addCallback()">addCallback</a>(labelOrPosition:*, forwardCallback:Function, forwardParameters:Array = null, reverseCallback:Function = null, reverseParameters:Array = null):void</div>
+<div class="summaryTableDescription">
+  Adds a callback function at the specified position.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#addLabel()">addLabel</a>(position:Number, label:String):void</div>
+<div class="summaryTableDescription">
+  Adds a label at the specified position.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#addTween()">addTween</a>(position:Number, tween:<a href="GTween.html">GTween</a>):void</div>
+<div class="summaryTableDescription">
+  Adds a tween to the timeline, which will start playing at the specified start position.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#addTweens()">addTweens</a>(tweens:Array):void</div>
+<div class="summaryTableDescription">
+  Shortcut method for adding a number of tweens at once.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#beginning()">beginning</a>():void</div>
+<div class="summaryTableDescription">
+  Jumps the tween to its beginning and pauses it.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#calculateDuration()">calculateDuration</a>():void</div>
+<div class="summaryTableDescription">
+  Calculates and sets the duration of the timeline based on the tweens and callbacks that have been added to it.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#deleteValue()">deleteValue</a>(name:String):Boolean</div>
+<div class="summaryTableDescription">
+  Removes a end value from the tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#end()">end</a>():void</div>
+<div class="summaryTableDescription">
+  Jumps the tween to its end and pauses it.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#getInitValue()">getInitValue</a>(name:String):Number</div>
+<div class="summaryTableDescription">
+  Returns the initial value for the specified property.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#getValue()">getValue</a>(name:String):Number</div>
+<div class="summaryTableDescription">
+  Returns the end value for the specified property if one exists.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#getValues()">getValues</a>():Object</div>
+<div class="summaryTableDescription">
+  Returns the hash table of all end properties and their values.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#goto()">goto</a>(labelOrPosition:*):void</div>
+<div class="summaryTableDescription">
+  Jumps the timeline to the specified label or numeric position without affecting its paused state.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#gotoAndPlay()">gotoAndPlay</a>(labelOrPosition:*):void</div>
+<div class="summaryTableDescription">
+  Jumps the timeline to the specified label or numeric position and plays it.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#gotoAndStop()">gotoAndStop</a>(labelOrPosition:*):void</div>
+<div class="summaryTableDescription">
+  Jumps the timeline to the specified label or numeric position and pauses it.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#init()">init</a>():void</div>
+<div class="summaryTableDescription">
+  Reads all of the initial values from target and calls the onInit callback.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#installPlugin()">installPlugin</a>(plugin:Object, propertyNames:Array, highPriority:Boolean = false):void</div>
+<div class="summaryTableDescription">[static]
+  Installs a plugin for the specified property.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#linearEase()">linearEase</a>(a:Number, b:Number, c:Number, d:Number):Number</div>
+<div class="summaryTableDescription">[static] The default easing function used by GTween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#removeCallback()">removeCallback</a>(labelOrPosition:*):void</div>
+<div class="summaryTableDescription">
+  Removes the callback(s) at the specified label or position.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#removeLabel()">removeLabel</a>(label:String):void</div>
+<div class="summaryTableDescription">
+  Removes the specified label.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#removeTween()">removeTween</a>(tween:<a href="GTween.html">GTween</a>):void</div>
+<div class="summaryTableDescription">
+  Removes the specified tween.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#resetValues()">resetValues</a>(values:Object = null):void</div>
+<div class="summaryTableDescription">
+  Similar to <code>.setValues()</code>, but clears all previous end values
+  before setting the new ones.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#resolveLabelOrPosition()">resolveLabelOrPosition</a>(labelOrPosition:*):Number</div>
+<div class="summaryTableDescription">
+  Returns the position for the specified label.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#setPropertyValue()">setPropertyValue</a>(target:Object, propertyName:String, value:*):void</div>
+<div class="summaryTableDescription">[static]
+  Sets a property value on a specified target object.</div>
+</td><td class="summaryTableOwnerCol">GTweenTimeline</td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#setValue()">setValue</a>(name:String, value:Number):void</div>
+<div class="summaryTableDescription">
+  Sets the numeric end value for a property on the target object that you would like to tween.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#setValues()">setValues</a>(values:Object):void</div>
+<div class="summaryTableDescription">
+  Shorthand method for making multiple setProperty calls quickly.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="GTween.html#swapValues()">swapValues</a>():void</div>
+<div class="summaryTableDescription">
+  Swaps the init and end values for the tween, effectively reversing it.</div>
+</td><td class="summaryTableOwnerCol"><a href="GTween.html">GTween</a></td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="position"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">position</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>position:Number</code>&nbsp;&nbsp;[write-only]<span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set position(value:Number):void</code>
+<br>
+</div>
+<a name="suppressCallbacks"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">suppressCallbacks</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var suppressCallbacks:Boolean</code><p>
+  If true, callbacks added with addCallback will not be called. This does not
+  affect event callbacks like onChange, which can be disabled with suppressEvents.
+  This can be handy for preventing large numbers of callbacks from being called when
+  manually changing the position of a timeline (ex. calling <code>.end()</code>).
+  </p></div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="GTweenTimeline()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">GTweenTimeline</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function GTweenTimeline(target:Object = null, duration:Number = 1, values:Object = null, props:Object = null, pluginData:Object = null, tweens:Array = null)</code><p>
+  Constructs a new GTweenTimeline instance. Note that because GTweenTimeline
+  extends GTween, it can be used to tween a target directly, in addition to
+  using its timeline features (for example, to synch tweening an animation with
+  a timeline sequence).
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">target</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; The object whose properties will be tweened. Defaults to null.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">duration</span>:Number</code> (default = <code>1</code>)<code></code> &mdash; The length of the tween in frames or seconds depending on the timingMode. Defaults to 10.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">values</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; An object containing destination property values. For example, to tween to x=100, y=100, you could pass <code>{x:100, y:100}</code> as the props object.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">props</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; An object containing properties to set on this tween. For example, you could pass {ease:myEase} to set the ease property of the new instance. It also supports a single special property "swapValues" that will cause <code>.swapValues</code> to be called after the values specified in the values parameter are set.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">pluginData</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; An object containing data for installed plugins to use with this tween. See <code>.pluginData</code> for more information.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">tweens</span>:Array</code> (default = <code>null</code>)<code></code> &mdash; An array of alternating start positions and tween instances. For example, the following array would add 3 tweens starting at positions 2, 6, and 8: <code>[2, tween1, 6, tween2, 8, tween3]</code>
+  </td>
+</tr>
+</table>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="addCallback()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">addCallback</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function addCallback(labelOrPosition:*, forwardCallback:Function, forwardParameters:Array = null, reverseCallback:Function = null, reverseParameters:Array = null):void</code><p>
+  Adds a callback function at the specified position. When the timeline's playhead passes over or lands on the position while playing
+  the callback will be called with the parameters specified. You can also optionally specify a callback and parameters to use
+  if the timeline is playing in reverse (when reflected for example).
+  <br/><br/>
+  You can add multiple callbacks at a specified position, however it is important to note that they will be played in the same order
+  (most recently added first) playing both forwards and in reverse. You can enforce the order they are called in by offsetting the
+  callbacks' positions by a tiny amount (ex. one at 2s, and one at 2.001s).
+  <br/><br/>
+  Note that this can be used in conjunction with the static <code>setPropertyValue</code> method to easily set properties on objects in the timeline.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">labelOrPosition</span>:*</code> &mdash; The position or label to add the callback at in frames or seconds (as per the timing mode of this tween).
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">forwardCallback</span>:Function</code> &mdash; The function to call when playing forwards.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">forwardParameters</span>:Array</code> (default = <code>null</code>)<code></code> &mdash; Optional array of parameters to pass to the callback when it is called when playing forwards.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">reverseCallback</span>:Function</code> (default = <code>null</code>)<code></code> &mdash; The function to call when playing in reverse.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">reverseParameters</span>:Array</code> (default = <code>null</code>)<code></code> &mdash; Optional array of parameters to pass to the callback when it is called when playing in reverse.
+  </td>
+</tr>
+</table>
+</div>
+<a name="addLabel()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">addLabel</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function addLabel(position:Number, label:String):void</code><p>
+  Adds a label at the specified position. You can use <code>gotoAndPlay</code> or <code>gotoAndStop</code> to jump to labels.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">position</span>:Number</code> &mdash; The position to add the label at in frames or seconds (as per the timing mode of this tween).
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">label</span>:String</code> &mdash; The label to add.
+  </td>
+</tr>
+</table>
+</div>
+<a name="addTween()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">addTween</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function addTween(position:Number, tween:<a href="GTween.html">GTween</a>):void</code><p>
+  Adds a tween to the timeline, which will start playing at the specified start position.
+  The tween will play synchronized with the timeline, with all of its behaviours intact (ex. <code>repeat</code>, <code>reflect</code>)
+  except for <code>delay</code> (which is accomplished with the <code>position</code> parameter instead).
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">position</span>:Number</code> &mdash; The starting position for this tween in frames or seconds (as per the timing mode of this tween).
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">tween</span>:<a href="GTween.html">GTween</a></code> &mdash; The GTween instance to add. Note that this can be any subclass of GTween, including another GTweenTimeline.
+  </td>
+</tr>
+</table>
+</div>
+<a name="addTweens()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">addTweens</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function addTweens(tweens:Array):void</code><p>
+  Shortcut method for adding a number of tweens at once.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">tweens</span>:Array</code> &mdash; An array of alternating positions and tween instances. For example, the following array would add 3 tweens starting at positions 2, 6, and 8: <code>[2, tween1, 6, tween2, 8, tween3]</code>
+  </td>
+</tr>
+</table>
+</div>
+<a name="calculateDuration()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">calculateDuration</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function calculateDuration():void</code><p>
+  Calculates and sets the duration of the timeline based on the tweens and callbacks that have been added to it.
+  </p></div>
+<a name="goto()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">goto</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function goto(labelOrPosition:*):void</code><p>
+  Jumps the timeline to the specified label or numeric position without affecting its paused state.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">labelOrPosition</span>:*</code> &mdash; The label name or numeric position in frames or seconds (as per the timing mode of this tween) to jump to.
+  </td>
+</tr>
+</table>
+</div>
+<a name="gotoAndPlay()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">gotoAndPlay</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function gotoAndPlay(labelOrPosition:*):void</code><p>
+  Jumps the timeline to the specified label or numeric position and plays it.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">labelOrPosition</span>:*</code> &mdash; The label name or numeric position in frames or seconds (as per the timing mode of this tween) to jump to.
+  </td>
+</tr>
+</table>
+</div>
+<a name="gotoAndStop()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">gotoAndStop</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function gotoAndStop(labelOrPosition:*):void</code><p>
+  Jumps the timeline to the specified label or numeric position and pauses it.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">labelOrPosition</span>:*</code> &mdash; The label name or numeric position in frames or seconds (as per the timing mode of this tween) to jump to.
+  </td>
+</tr>
+</table>
+</div>
+<a name="removeCallback()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">removeCallback</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function removeCallback(labelOrPosition:*):void</code><p>
+  Removes the callback(s) at the specified label or position.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">labelOrPosition</span>:*</code> &mdash; The position of the callback(s) to remove in frames or seconds (as per the timing mode of this tween).
+  </td>
+</tr>
+</table>
+</div>
+<a name="removeLabel()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">removeLabel</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function removeLabel(label:String):void</code><p>
+  Removes the specified label.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">label</span>:String</code> &mdash; The label to remove.
+  </td>
+</tr>
+</table>
+</div>
+<a name="removeTween()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">removeTween</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function removeTween(tween:<a href="GTween.html">GTween</a>):void</code><p>
+  Removes the specified tween. Note that this will remove all instances of the tween
+  if has been added multiple times to the timeline.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">tween</span>:<a href="GTween.html">GTween</a></code> &mdash; The GTween instance to remove.
+  </td>
+</tr>
+</table>
+</div>
+<a name="resolveLabelOrPosition()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">resolveLabelOrPosition</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function resolveLabelOrPosition(labelOrPosition:*):Number</code><p>
+  Returns the position for the specified label. If a numeric position is specified,
+  it is returned unchanged.
+    </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">labelOrPosition</span>:*</code> &mdash; The label name or numeric position in frames or seconds (as per the timing mode of this tween) to resolve.
+  </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Number</code></td>
+</tr>
+</table>
+</div>
+<a name="setPropertyValue()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">setPropertyValue</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function setPropertyValue(target:Object, propertyName:String, value:*):void</code><p>
+  Sets a property value on a specified target object. This is provided to make it easy to set properties
+  in a GTweenTimeline using <code>addCallback</code>. For example, to set the <code>visible</code> property to true on a movieclip "foo"
+  at 3 seconds into the timeline, you could use the following code:<br/>
+  <code>myTimeline.addCallback(3,GTweenTimeline.setPropertyValue,[foo,"visible",true]);</code>
+  </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">target</span>:Object</code> &mdash; The object to set the property value on.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">propertyName</span>:String</code> &mdash; The name of the property to set.
+  </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:*</code> &mdash; The value to assign to the property.
+  </td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->
