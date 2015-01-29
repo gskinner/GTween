@@ -1,0 +1,13 @@
+*.zip
+*.tar
+*.gz
+*.tmp
+*.out
+.classpath
+.project
+.settings
+/.metadata
+.DS_Store
+*.log
+gen/
+bin/
