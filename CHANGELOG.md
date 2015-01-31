@@ -7,6 +7,7 @@ Changes:
 - included asdoc metadata inside .swc
 - reorganized samples
 - simplified usage via Maven: added pom.xml, deployed to Maven Central
+- fixed issue #1: Invalid ratio calculation on reused GTween instances
 
 ## 2.01 (Dec 10, 2009)
 
