@@ -13,3 +13,5 @@ gen/
 bin/
 target/
 gpg/
+docs/
+swc/
