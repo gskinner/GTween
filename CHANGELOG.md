@@ -2,6 +2,9 @@
 
 Changes:
 - migrated to github
+- Flex SDK 4.6+ asdoc compatibility
+- FlashDevelop 4+ build env. support
+- included asdoc metadata inside .swc
 - reorganized samples
 - simplified usage via Maven: added pom.xml, deployed to Maven Central
 
