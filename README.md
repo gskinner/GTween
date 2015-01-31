@@ -130,7 +130,18 @@ All source code for these demos is included with the download.
 
 ## Download
 
-[Download latest build of GTween](http://www.gskinner.com/libraries/gtween/GTween_v2_01.zip). (Version 2.01)
+[Download latest build of GTween](https://github.com/gskinner/GTween/releases/download/v2.01/GTween_v2_01.zip). (Version 2.01)
+
+Or include the SWC as a Maven dependency:
+
+```XML
+<dependency>
+	<groupId>com.gskinner</groupId>
+	<artifactId>gtween</artifactId>
+	<version>2.0.1</version>
+	<type>swc</type>
+</dependency>
+```
 
 ## Feedback
 
