@@ -11,3 +11,5 @@
 *.log
 gen/
 bin/
+target/
+gpg/
